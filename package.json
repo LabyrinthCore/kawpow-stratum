@@ -1,0 +1,25 @@
+{
+  "name": "kawpow-stratum",
+  "version": "1.0.0",
+  "description": "KAWPoW Standalone implementation for using in a pool or solo mining",
+  "main": "index.js",
+  "author": "The Labyrinth Core developers",
+  "license": "MIT",
+  "dependencies": {
+    "@mintpond/hasher-kawpow": "git+https://github.com/LabyrinthCore/kawpow-hasher",
+    "@mintpond/mint-bitcoin-script": "git+https://github.com/MintPond/mint-bitcoin-script",
+    "@mintpond/mint-merkle": "git+https://github.com/MintPond/mint-merkle",
+    "@mintpond/mint-precon": "git+https://github.com/MintPond/mint-precon",
+    "@mintpond/mint-socket": "git+https://github.com/MintPond/mint-socket",
+    "@mintpond/mint-utils": "git+https://github.com/MintPond/mint-utils",
+    "@mintpond/mint-bos": "git+https://github.com/MintPond/mint-bos",
+    "sha3": "2.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LabyrinthCore/kawpow-stratum.git"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  }
+}

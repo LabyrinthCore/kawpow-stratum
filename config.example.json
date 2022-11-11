@@ -1,0 +1,17 @@
+{
+    "coinbaseAddress": "XyAY3TE3K29nrzQ2oo8JXyVPyGF3f7tq6P",
+    "blockBrand": "Labyrinth solo miner",
+    "host": "0.0.0.0",
+    "port": {
+        "number": 3010,
+        "diff": 24
+    },
+    "rpc": {
+        "host": "127.0.0.1",
+        "port": 4571,
+        "user": "rpcuser",
+        "password": "rpcpassword"
+    },
+    "jobUpdateInterval": 55,
+    "blockPollIntervalMs": 250
+}
